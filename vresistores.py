@@ -7,7 +7,7 @@ vrms = 220
 freq = 100
 per = 1/freq
 quarto_de_per = per/4
-vpico = vrms*np.sqrt(2) # valor pico a pico
+vpico = vrms*np.sqrt(2) # valor pico
 
 tempo = np.linspace(0,3*per,300)
 
